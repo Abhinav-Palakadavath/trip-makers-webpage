@@ -1359,6 +1359,9 @@ address {
     width: 6em;
   }
 
+  .hero {
+    min-height: 100vh; 
+  }
   /* h1 {
     font-size: 2em;
   } */
