@@ -231,8 +231,8 @@ body { background: var(--white); }
 }
 
 .activated-logo{
-  height: 4em;
-  width: 4em;
+  height: 9em;
+  width: 5em;
 }
 
 .header-top .container {
