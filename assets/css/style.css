@@ -114,8 +114,8 @@ html {
 body { background: var(--white); }
 
 .logo-header{
-  height: 11em;
-  width: 11em;
+  height: 8em;
+  width: 8em;
   align-items: center;
   justify-content: center;
   border-radius: 3em;
@@ -272,6 +272,8 @@ body { background: var(--white); }
 .nav-open-btn {
   font-size: 30px;
   color: inherit;
+  position: relative;
+  left: 4em;
 }
 
 .search-btn { font-size: 20px; }
@@ -888,8 +890,8 @@ address {
    * REUSED STYLE
    */
    .logo-header{
-    height: 11em;
-    width: 11em;
+    height: 8em;
+    width: 8em;
     align-items: center;
     justify-content: center;
     /* border-radius: 8em; */
@@ -1237,8 +1239,8 @@ address {
     display: block; 
   }
   .logo-header{
-    height: 11em;
-    width: 11em;
+    height: 8em;
+    width: 8em;
     align-items: center;
     justify-content: center;
     border-radius: 3em;
