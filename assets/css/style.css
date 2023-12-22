@@ -114,11 +114,12 @@ html {
 body { background: var(--white); }
 
 .logo-header{
-  height: 8em;
-  width: 8em;
+  height: 11em;
+  width: 11em;
   align-items: center;
   justify-content: center;
-  border-radius: 10em;
+  border-radius: 3em;
+  
 }
 
 
@@ -380,6 +381,11 @@ body { background: var(--white); }
  * #HERO
 \*-----------------------------------*/
 
+
+
+
+
+
 .hero {
   background-image: url("../images/hero-banner.jpg");
   background-repeat: no-repeat;
@@ -392,6 +398,14 @@ body { background: var(--white); }
   min-height: 600px;
   text-align: center;
   padding-top: 125px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-logo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-title { margin-bottom: 20px; }
@@ -411,7 +425,11 @@ body { background: var(--white); }
 }
 
 
-
+.hero .container{
+  
+  justify-content: center;
+  align-items: center;
+}
 
 
 /*-----------------------------------*\
@@ -870,11 +888,13 @@ address {
    * REUSED STYLE
    */
    .logo-header{
-    height: 6em;
-    width: 6em;
+    height: 11em;
+    width: 11em;
     align-items: center;
     justify-content: center;
-    border-radius: 10em;
+    /* border-radius: 8em; */
+    border-radius: 3em;
+
   }
   .container {
     max-width: 580px;
@@ -900,7 +920,10 @@ address {
    * HEADER
    */
 
-  .header { padding-top: 83px; }
+  .header { 
+    padding-top: 9px;
+
+   }
 
   .helpline-box .icon-box { padding: 14px; }
 
@@ -1214,17 +1237,19 @@ address {
     display: block; 
   }
   .logo-header{
-    height: 8em;
-    width: 8em;
+    height: 11em;
+    width: 11em;
     align-items: center;
     justify-content: center;
-    border-radius: 10em;
+    border-radius: 3em;
+    /* border-radius: 10em; */
   }
   
   .logo-div{
     width: 50vw;
     display: flex;
     justify-content: center;
+
   }
   .logo {
     display: flex;
