@@ -226,14 +226,15 @@ body { background: var(--white); }
 
 .header.active .header-top {
   position: fixed;
-  background: var(--gunmetal);
-  height: 9em;
+  /* background: var(--gunmetal); */
+  background-color: rgba(58, 79, 143, 0.199);
+  height: 7em;
 }
 
-.activated-logo{
+/* .activated-logo{
   height: 9em;
   width: 5em;
-}
+} */
 
 .header-top .container {
   display: grid;
@@ -1157,6 +1158,7 @@ address {
     position: unset;
     background: unset;
     height: 5em;
+
   }
 
   .nav-open-btn,
