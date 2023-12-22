@@ -227,7 +227,7 @@ body { background: var(--white); }
 .header.active .header-top {
   position: fixed;
   /* background: var(--gunmetal); */
-  background-color: rgba(58, 79, 143, 0.199);
+  background-color: rgba(58, 79, 143, 0);
   height: 7em;
 }
 
