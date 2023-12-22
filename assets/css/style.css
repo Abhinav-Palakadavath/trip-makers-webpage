@@ -1357,8 +1357,11 @@ address {
 /* Add this @media query for smartphone view */
 @media (max-width: 767px) {
   .logo img {
+    position: relative;
     height: 6em;
     width: 6em;
+    margin-left: 17px;
+    top: -10px;
   }
 
   .hero {
